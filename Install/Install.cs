@@ -10,7 +10,13 @@ namespace Install
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Install Started");
+            Console.ReadKey();
 
+
+            //can I attach to other processes?
+            //run shell
+            
         }
     }
 }

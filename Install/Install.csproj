@@ -50,9 +50,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Practice\Practice.csproj">
+      <Project>{6a1f86a9-c6de-4517-9222-c6326637f047}</Project>
+      <Name>Practice</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Shell\Shell.csproj">
       <Project>{2021cbb4-b597-4812-93fe-61dda1e83ef2}</Project>
       <Name>Shell</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ToolSet\ToolSet.csproj">
+      <Project>{f9dd3e8c-a995-47d8-8437-ecda373fdf06}</Project>
+      <Name>ToolSet</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -10,6 +10,8 @@ namespace Shell
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Shell Started");
+            Console.ReadKey();
         }
     }
 }
