@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ToolSet
 {
-    class Program
+    class ToolSet
     {
         static void Main(string[] args)
         {
